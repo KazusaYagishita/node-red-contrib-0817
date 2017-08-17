@@ -1,0 +1,27 @@
+{
+  "name": "node-red-contrib-0817",
+  "version": "1.0.0",
+  "description": "0817 test",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node-red" : {
+    "nodes": {
+      "Node0817": "node.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KazusaYagishita/node-red-contrib-0817.git"
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "author": "Kazusa_Yagishita",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/KazusaYagishita/node-red-contrib-0817/issues"
+  },
+  "homepage": "https://github.com/KazusaYagishita/node-red-contrib-0817#readme"
+}

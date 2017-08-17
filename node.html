@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    RED.nodes.registerType('Node0817',{
+        category: 'function',
+        color: 'yellow',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "light.png",
+        label: function() {
+            return this.name||"Node0817";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="Node0817">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="Node0817">
+    <p>ハンズオンでためしにつくってみたノード</p>
+</script>
